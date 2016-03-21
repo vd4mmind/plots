@@ -90,7 +90,7 @@ p1 <- ggplot( data = one.data );
 p1 <- p1 + geom_point( aes(plot_X, plot_Y, colour = log10_p_value, size = plot_size), alpha = I(0.6) );
 p1 <- p1 + scale_colour_gradientn(colours = c("blue", "green","yellow","red" ), limits = c(min(as.numeric(one.data$log10_p_value)), max(as.numeric(one.data$log10_p_value))));
 p1 <- p1 + geom_point( aes(plot_X, plot_Y, size = plot_size), shape = 21, fill = "transparent", colour = I (alpha ("black", 0.6) )) + scale_size_area();
-p1 <- p1 + scale_size( range=c(2, 20)) + theme_classic()# + scale_fill_gradientn(colours = heat_hcl(7), limits = c(-300, 0) );
+p1 <- p1 + scale_size( range=c(2, 20)) + theme_bw()# can be theme_classic() #+ scale_fill_gradientn(colours = heat_hcl(7), limits = c(-300, 0) );
 ex <- one.data [ one.data$dispensability < 0.1, ]; ## reduced the dispensability for fitting
 p1 <- p1 + geom_text( data = ex, aes(plot_X, plot_Y, label = description), colour = I(alpha("black", 0.75)), size = 2 ); ## reduced the size
 p1 <- p1 + labs (y = "semantic space Y", x = "semantic space X");
