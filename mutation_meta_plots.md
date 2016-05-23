@@ -85,3 +85,34 @@ Please adhere to the TCGA publication guidelines when using TCGA data in your pu
 Please cite Gao et al. Sci. Signal. 2013 & Cerami et al. Cancer Discov. 2012 when publishing results based on cBioPortal.
 
 http://www.cbioportal.org/
+
+## intOGen
+
+
+The Biomedical Genomics Group
+
+BG Group is a research group integrated in the Research Unit on Biomedical Informatics (GRIB) of the University Pompeu Fabra (UPF). The lab is located in the Biomedical Research Park in Barcelona (PRBB).
+
+Our main research interest is the computational study of cancer from a genomics perspective (see details in Projects).
+Citation
+
+Rubio-Perez, C., Tamborero, D., Schroeder, MP., Antolín, AA., Deu-Pons,J., Perez-Llamas, C., Mestres, J., Gonzalez-Perez, A., Lopez-Bigas, N. In silico prescription of anticancer drugs to cohorts of 28 tumor types reveals novel targeting opportunities. Cancer Cell 27 (2015), pp. 382-396
+
+Gonzalez-Perez A, Perez-Llamas C, Deu-Pons J, Tamborero D, Schroeder MP, Jene-Sanz A, Santos A & Lopez-Bigas N IntOGen-mutations identifies cancer drivers across tumor types Nature Methods 2013; doi:10.1038/nmeth.2642
+Tools and Data
+IntOGen mutations uses several data sources and tools.
+Tumor mutation data
+
+Most tumour somatic mutations data (although not all) comes from: ICGC: The International Cancer Genome Consortium, TCGA: The Cancer Genome Atlas and independent projects. See in each project details for its source
+Driver identification methods
+
+OncodriveFM: Identifies genes with a bias towards high functional mutations, OncodriveCLUST: Identifies genes with a significant regional clustering of mutations MutSigCV: Identifies genes mutated more frequently than background mutation rate OncodriveROLE: Classifies driver genes according to its mode of action in Activation or Loss of Function
+Mutations mapping
+
+Ensembl VEP from Ensembl 70 has been used for all gene & transcript mapping as well as the official gene and transcript names. PFAM 27 domains have been downloaded from their ftp server and the obtained regions have been mapped using PRA-Tool.
+Visualization
+
+HighCharts has been used for various plots and Mutations Needle Plot library has been for the mutation distribution plots
+
+
+https://www.intogen.org/search
