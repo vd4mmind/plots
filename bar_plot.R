@@ -22,3 +22,9 @@ b<-barplot(data2, beside= TRUE,las=2,cex.axis=0.7,cex.names=0.7,ylim=c(0,2500), 
 
 tx2 <- data2
 text(b,tx2+10, as.character(tx2),pos = 3, cex = 0.5, col = "darkgreen")
+
+###Alternatively plotting +ve and -ve scores
+x=c(1,1,1,1,0,1,-2,2,1,0,0,1,-1,2,0,-1,-1,0,-1,0,0,0,1,1)
+cols <- c("cornflowerblue","orange")
+pos <- x >= 0
+barplot(x, col = cols[pos + 1], border = cols[pos + 1])
