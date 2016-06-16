@@ -8,3 +8,14 @@ http://www.inside-r.org/packages/cran/pheatmap/docs/pheatmap
 
 Phaseview in Ritchie Lab.
 http://visualization.ritchielab.psu.edu/home/index
+
+Some very nice web portal for tumor study plots for different cancers.
+
+Broad
+http://www.tumorportal.org/
+
+MSKCC
+http://www.cbioportal.org/
+
+Pfizer oncology genomics
+http://oasis-genomics.org/
