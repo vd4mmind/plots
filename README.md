@@ -19,3 +19,7 @@ http://www.cbioportal.org/
 
 Pfizer oncology genomics
 http://oasis-genomics.org/
+
+some new visualizations plots
+http://www.sthda.com/english/wiki/visualize-correlation-matrix-using-correlogram
+https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html
