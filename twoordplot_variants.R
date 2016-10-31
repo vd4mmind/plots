@@ -1,5 +1,6 @@
 ####making a two y axis plots for showing importance of genes having number of variants and associated pathogenicity scores
-library(twoord.plot)
+#library(twoord.plot)
+library(plotrix)
 a=c(2,2,2,2,3,3,5,5) ##number of variants found in each genes
 b=c(0.960,0.988,0.936,0.871,0.928,0.965,0.814,0.871) ## pathogenicity scores
 genes=c("MYD88","JAK2","TNFAIP3","ATRX","PHF6","NF1","MED12","SF3B1") ##gene names
